@@ -1,7 +1,39 @@
-/* Our CSS file. */
+#container {
+    width: 100%;
+    height: 100%;
+}
 
+#firsthalf{
+    background-color: #F2F2F2;
+    height: 50%;
+    text-align: left;
+}
+#first-left{
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+}
 
-.container, .content {
-width: 100%;
-height: 100%;
+#first-right{
+    display: inline;
+    width: 50%;
+    float: right; 
+}
+
+#render-wiki{
+    float: right;
+    overflow: hidden;
+}
+
+#secondhalf{
+    background-color: #F2F2F2;
+    height: 20%;
+    width: 100%;
+    text-align: center;
+}
+
+#thirdhalf{
+    background-color: #F2F2F2;
+    width: 100%;
+    height:30%;
 }
