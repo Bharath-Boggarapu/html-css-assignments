@@ -1,7 +1,73 @@
 /* Our CSS file. */
 
+#container{
+    background-color: lightgrey;
+    width: auto;
+}
 
-.container, .content {
-width: 100%;
-height: 100%;
+
+.card{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: -10px;
+}
+
+.row1{
+    background-color: lightgreen;
+    width: 12.5%;
+    height: 550px;
+    margin: 50px;
+}
+
+.first-image{
+    width: 500px;
+    position: relative;
+    top: -40px;
+    left: -80px;
+}
+
+.content{
+    width: 20%;
+    height: 550px;
+    margin-top: 50px;
+    margin-left: -50px;
+    margin-bottom: 50px;
+    background-color: white;
+}
+
+.heading{
+    font-size: 80px;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.para{
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+.btn{
+    background-color: lightgreen;
+    font-size: 20px;
+    border-radius: 50px;
+    border-color: lightgreen;
+    height: 80px;
+    width: 200px;
+    text-align: center;
+    margin-left: 50px;
+    margin-bottom: 82px;
+    word-spacing: 12px;
+    color: white;
+    font-weight: bold;
+}
+
+.second-image{
+    position: relative;
+    height: 400px;
+    width: 450px;
+    top: 80px;
+    bottom: -80px;
+    left: -40px;
 }
